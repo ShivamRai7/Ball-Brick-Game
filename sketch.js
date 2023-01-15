@@ -6,7 +6,7 @@ let lives, lives_x, lives_y;
 
 function setup() {  
   createCanvas(450, 450);
-  background("hsl(0, 50%, 50%)");
+  background("hsl(200, 50%, 50%)");
   
   score = 0;
   str_x = 15;
