@@ -1,11 +1,3 @@
-/*
-    Extra Features Added
---> Ball starts in random direction everytime.
---> A reset_game function has been used to start the ball from the center       everytime ball touches the bottom of the canvas.
---> Game will start only when on mouseclick while hovering over the             canvas and will stop when your lives reaches 0;
---> Game will render a message when you win or lose.
-*/
-
 let paddle_x, paddle_y, paddle_width, paddle_height, paddle_dx;
 let brick_col, brick_row, bricks, x, y, padding;
 let ball_x, ball_y, ball_diameter, ball_dx, ball_dy, angle, direction, velocity;
